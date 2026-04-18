@@ -15,7 +15,11 @@ Which are mainly:
 </ul>
 
 >The Carbon-Hydrogen are responsible for flame production in the machine to breake the sample compound into individual molecules.
+
 >These molecules then release photons while dropping from higher octate to lower octate while loosing the enegry acuired by the flame produced.
+
 >These photos are then collided to the metal plate to release electrons [Photo-Electric_Effect] , the density of these electrons manipulates the indication-light on the machine that give the idea about chemical concentration of particular molecule.
+
 <img src="photo-electric-effect.png">
+
 >The electron density is increased by a special method to turn the light on, as the raw electrons are significantly low in number to create a spark in the electric circuit and turn onn the LED.
