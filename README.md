@@ -16,7 +16,7 @@ Which are mainly:
 
 >The Carbon-Hydrogen are responsible for flame production in the machine to breake the sample compound into individual molecules.
 
->These molecules then release photons while dropping from higher octate to lower octate while loosing the enegry acuired by the flame produced.
+>These molecules then release photons while dropping from higher octate to lower octate due to loss of enegry acuired by the flame produced.
 
 >These photos are then collided to the metal plate to release electrons [Photo-Electric_Effect] , the density of these electrons manipulates the indication-light on the machine that give the idea about chemical concentration of particular molecule.
 
