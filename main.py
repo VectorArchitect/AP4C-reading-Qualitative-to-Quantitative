@@ -46,18 +46,24 @@ try:
                 packet=append_crc(data) #adding crc to data
 
                 bytes_sent=ser.write(packet)   #sending bytes packet and storing no. of bytes in bytes_sent
-                print(f"Sent: {packet}")
-                print(packet)
-                print(f"sent: {packet.hex(' ')}")
-                print(f"Total bytes written: {data}")
+                # print(f"Sent: {packet}")
+                # print(packet)
+                # print(f"sent: {packet.hex(' ')}")
+                # print(f"Total bytes written: {data}")
 
                 time.sleep(0.5)  # even if data not received the program will not shut for this amount of time
 
-                line = ser.readline(35).rstrip()
+                line = ser.readline(35).rstrip()   #receiving data
                 line_length = len(line)
+
+                byte_array = line  # decimal array of 35 inputs
+                byte = byte_array[3:33]
                 # st.write(f"#### Data received:")
                 # st.info(f"{line}")
                 # st.write(f"length of data: {line_length}")
+                
+                device_add=line[0]
+                st.write(f"##### Device Address: {line[0]} [{device_add:02x}]")
 
                 if line_length==0:
                     st.info("Port Connected, No Data Received !")
@@ -67,8 +73,8 @@ try:
                 else:
 
                     var = ['res_0', 'res_1', 'CH_con', 'As_con', 'CN_con', 'Ph_con', 'Sol_con', 'Alarm', 'Status']
-                    byte_array = line  # decimal array of 35 inputs
-                    byte = byte_array[3:33]
+                    # byte_array = line  # decimal array of 35 inputs
+                    # byte = byte_array[3:33]
                     print(byte)
                     # st.write(f"{byte}")
                     col1, col2, col3, col4 = st.columns(4, gap='large', border=True)
