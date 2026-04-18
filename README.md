@@ -7,11 +7,11 @@ with this program we are reading the values given by AP4C machine, and convertin
 AP4C [ Apparatus 4 Channels ] is a chemical detection machine which takes a chemical sample as input and gives the concentration of 4 elements in the compound.
 Which are mainly: 
 <ul>
-  <l>Phosphorus (P)</l>
-  <l>Sulfur (S)</l>
-  <l>Arsenic (As)</l>
-  <l>Hydrogen-Nitrogen-Oxygen (HNO)</l>
-  <l>Carbon-Hydrogen (CH)</l>
+  <l>Phosphorus (P)</l> <br>
+  <l>Sulfur (S)</l> <br>
+  <l>Arsenic (As)</l> <br>
+  <l>Hydrogen-Nitrogen-Oxygen (HNO)</l> <br>
+  <l>Carbon-Hydrogen (CH)</l> <br>
 </ul>
 
 >The Carbon-Hydrogen are responsible for flame production in the machine to breake the sample compound into individual molecules.
