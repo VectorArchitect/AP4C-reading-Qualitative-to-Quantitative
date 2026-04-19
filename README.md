@@ -26,5 +26,5 @@ Which are mainly:
 
 <hr>
 
-### GUI
+## GUI
 <img src="gui.png">
