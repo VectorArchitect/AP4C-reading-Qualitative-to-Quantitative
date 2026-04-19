@@ -25,6 +25,6 @@ Which are mainly:
 >The electron density is increased by a special method to turn the light on, as the raw electrons are significantly low in number to create a spark in the electric circuit and turn onn the LED.
 
 <hr>
-<br>
-## GUI
+
+###### GUI
 <img src="gui.png">
